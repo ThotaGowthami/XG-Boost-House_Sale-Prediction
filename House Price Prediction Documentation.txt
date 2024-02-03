@@ -1,0 +1,32 @@
+Project Title: House Price Prediction
+
+1. Introduction : 
+Brief overview of the project: Predicting house prices using linear regression and gradient boosting.
+Purpose of the project: Explore the dataset and build regression models to predict house prices based on various features.
+
+2. Code Overview : 
+The code begins by importing necessary libraries and loading the dataset (kc_house_data.csv).
+Exploration of the dataset through descriptive statistics, bar plots, and scatter plots to understand the distribution and relationships of different features.
+
+3. Data Exploration and Visualization : 
+Visualizations include bar plots for the number of bedrooms, scatter plots for price vs. square feet, location, bedrooms, etc.
+Exploration of geographical data using latitude and longitude with a joint plot.
+Analysis of the waterfront's impact on price and floor distribution.
+
+4. Linear Regression Model : 
+Implementation of a simple linear regression model using the LinearRegression class from sklearn.
+Feature selection and splitting the dataset into training and testing sets.
+Training the model and evaluating its performance using the score method.
+
+5. Gradient Boosting Regression Model : 
+Implementation of a gradient boosting regression model using the GradientBoostingRegressor class from sklearn.ensemble.
+Fine-tuning the model parameters (e.g., number of estimators, max depth, learning rate).
+Training the model and evaluating its performance using the score method.
+
+6. Performance Comparison : 
+Comparison of the performance of the linear regression model and the gradient boosting model using visualizations.
+
+7. Conclusion : 
+Summary of key findings from the exploration and modeling phases.
+Reflection on the effectiveness of linear regression and gradient boosting for the given task.
+Possible areas for improvement or future work.
